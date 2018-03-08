@@ -8,7 +8,8 @@
   padding-bottom: 10px;
   position: fixed;
   align-items: center;
-
+  z-index: 1;
+  background-color: white;
 }
 
 .head-logo{
@@ -42,26 +43,23 @@ div{
 
 .main-container{
   display: flex;
-  position: relative;
-  top: 100px;
-}
+  width: 100%;
+  padding-top: 100px;
 
-.column.large{
-  width: 630px;
+}
+.column{
   display: flex;
   flex-direction: column;
+  margin: 15px;
+}
+.column.large{
+  width: 630px;
 }
 
 .column.medium{
   width: 300px;
-  display: flex;
 }
 
 .column.small{
   width: 240px;
-  display: flex;
-}
-
-.story{
-  display: flex;
 }
