@@ -63,3 +63,34 @@ div{
 .column.small{
   width: 240px;
 }
+
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content{
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead .image-content{
+    background:url(../images/img-story-main.png);
+    font-size: 40px;
+}
+
+.earth{
+  background:url(../images/img-story-2.png);
+}
+
+.camera{
+  background:url(../images/img-story-3.png);
+}
+
+.cat{
+  background:url(../images/img-story-1.png);
+}
